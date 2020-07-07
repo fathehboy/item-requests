@@ -1,4 +1,4 @@
-Aplikasi Permintaan dan Persetujuan Material Teknik
+Aplikasi Permintaan dan Pengeluaran Barang Divisi Umum Bankaltimtara Cabang Tanjung Selor
 =========
 
 Penjelasan
@@ -25,9 +25,4 @@ Installation
 Cara Instal
 1. Upload data di server php anda 
 2. Import Database MySQL ke PHPMyAdmin
-3. Jalankan di browser 
-
-Copyright & License
--------
-Copyright (c) 2017 Slamet Riky
-[GNU Public License](http://www.gnu.org/licenses/gpl-3.0.html)
+3. Jalankan di browser
