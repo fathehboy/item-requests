@@ -3,8 +3,7 @@ Aplikasi Permintaan dan Pengeluaran Barang Divisi Umum Bankaltimtara Cabang Tanj
 
 Penjelasan
 ------------
-Aplikasi ini digunakan untuk permintaan barang dari bagian unit pengadaan kemudian barang yang telah diminta mengunggu persetujuan dari bagian gudang, apabila gudang menyetujui maka barang yang diminta boleh di keluarkaan dengan bukti surat peneluaran barang.
-
+Aplikasi ini digunakan untuk permintaan barang dari bagian unit kemudian persetujuan dari UMUM 2, dan upload barang dari UMUM 1
 Fitur
 ------------
 1. Twitter Bootstrap
