@@ -11,7 +11,6 @@ $err = "";
 if (isset($_POST['login'])) {
 	$username = $_POST['username'];
 	$password = md5($_POST['password']);
-	$level = $_POST['level'];
 
 	$query = "SELECT * FROM user WHERE username='$username' && password='$password'";
 	$hasil = mysqli_query($koneksi, $query);
@@ -40,7 +39,9 @@ if (isset($_POST['login'])) {
 		$_SESSION['username'] = $row['username'];
 		$_SESSION['level'] = $row['level'];
 
-		levelcheck();
+		if (isset($_SESSION['login'])) {
+			header("Location:" . $_SESSION['level'] . "/index.php");
+		}
 	}
 }
 
