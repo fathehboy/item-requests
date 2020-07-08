@@ -93,7 +93,7 @@
   </div>
 
   <div class="kanan">
-      <p>Mengetahui :<br>Pemimpin Bidang Layanan & Operasional </p>
+      <p>Mengetahui :<br>Pemimpin Bidang Layanan & Operasional</p>
       <br>
       <br>
       <br>

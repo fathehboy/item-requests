@@ -28,7 +28,7 @@
         <div class="col-sm-12">
              <div class="box box-primary">
                 <div class="box-header with-border">
-                    <h3 class="text-center">Data Pengeluaran Material Teknik</h3>
+                    <h3 class="text-center">Data Pengeluaran Barang</h3>
                 </div>    
                 <div class="box-body"> 
 				<a href="cetakbarang.php" target="_blank" style="margin:10px;" class="btn btn-success"><i class='fa fa-print'> Cetak Laporan</i></a>

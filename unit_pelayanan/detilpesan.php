@@ -29,7 +29,7 @@
         <div class="col-sm-12">
              <div class="box box-primary">
                 <div class="box-header with-border">
-                    <h3 class="text-center">Data Permintaan Material Teknik Tanggal <?php echo tanggal_indo($tgl); ?></h3>
+                    <h3 class="text-center">Data Permintaan Barang <?php echo tanggal_indo($tgl); ?></h3>
                 </div>                
                 <div class="box-body">                   
                     <a href="index.php?p=datapesanan" style="margin:10px;" class="btn btn-success"><i class='fa fa-backward'>  Kembali</i></a>

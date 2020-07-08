@@ -76,17 +76,18 @@ $page = isset($_GET['p']) ? $_GET['p'] : false;
 			<li class="treeview">
           <a href="#">
             <i class="fa fa-table"></i>
-            <span>Data Stok Material</span>
+            <span>Data Stok Barang</span>
             <span class="pull-right-container">
               <span class="label label-primary pull-right"><?= $data['jumlah']; ?></span>
             </span>
           </a>
 		  <ul class="treeview-menu">
-            <li><a href="index.php?p=material&id_jenis=1" ><i class="fa fa-circle-o"></i>Pipa</a></li>
-            <li><a href="index.php?p=material&id_jenis=2" ><i class="fa fa-circle-o"></i>Meter Air</a></li>
-            <li><a href="index.php?p=material&id_jenis=3" ><i class="fa fa-circle-o"></i>Assesories</a></li>
-            <li><a href="index.php?p=material&id_jenis=4" ><i class="fa fa-circle-o"></i>Oli/Pelumas</a></li>
-			<li><a href="index.php?p=material&id_jenis=5" ><i class="fa fa-circle-o"></i>Sparepart</a></li>
+            <li><a href="index.php?p=material&id_jenis=1" ><i class="fa fa-circle-o"></i>Barang 1</a></li>
+            <li><a href="index.php?p=material&id_jenis=2" ><i class="fa fa-circle-o"></i>Barang 2</a></li>
+            <li><a href="index.php?p=material&id_jenis=3" ><i class="fa fa-circle-o"></i>Barang 3</a></li>
+            <li><a href="index.php?p=material&id_jenis=4" ><i class="fa fa-circle-o"></i>Barang 4</a></li>
+			<li><a href="index.php?p=material&id_jenis=5" ><i class="fa fa-circle-o"></i>Barang 5</a></li>
+			
           </ul>
         </li>
 			<li><a href="index.php?p=datapesanan"><i class="fa fa-files-o"></i> Data Permintaan Barang</a></li>

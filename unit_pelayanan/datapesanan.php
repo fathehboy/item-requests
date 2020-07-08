@@ -7,13 +7,10 @@
 		$tgl = $_GET['tgl'];
 		echo $tgl;
 
-		if ($_GET['aksi'] == 'detil') {
-			header("location:?p=detil&tgl=$tgl");
-		} 
+		if ($_GET['aksi'] == 'detil') {header("location:?p=detil&tgl=$tgl");} 
 	}
 	
-	$query = mysqli_query($koneksi, "SELECT tgl_permintaan, count(kode_brg)  FROM permintaan WHERE unit= '$_SESSION[username]'  GROUP BY tgl_permintaan  ");	
-    
+	$query = mysqli_query($koneksi, "SELECT tgl_permintaan, count(kode_brg)  FROM permintaan WHERE unit= '$_SESSION[username]'  GROUP BY tgl_permintaan  ");
 ?>
 
 <!-- Main content -->

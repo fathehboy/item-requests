@@ -25,8 +25,8 @@
   <table>
     <tr>
       <th rowspan="3"><img src="../gambar/logopemkot.png" style="width:100px;height:100px" /></th>
-      <td align="center" style="width: 520px;"><font style="font-size: 18px"><b>PEMERINTAH KOTA PALEMBANG <br> PERUSAHAAN DAERAH AIR MINUM TIRTA MUSI PALEMBANG</b></font>
-      <br><br>Jl. Rambutan Ujung No. 1, Kecamatan Ilir Barat II, Palembang, Sumatera Selatan <br> Telp : (0711) 355089 | Fax : (0711) 355180</td>
+      <td align="center" style="width: 520px;"><font style="font-size: 18px"><b>PT BPD KALTIM KALTARA<br> CABANG TANJUNG SELOR</b></font>
+      <br><br>Jl. Kolonel Sutadji, Tj. Selor Hilir, Tj. Selor, Kabupaten Bulungan, Kalimantan Utara 77216 <br> Telp : (0552) 21340 | Fax : (0552) 21340</td>
 	  <th rowspan="3"><img src="../gambar/logopdam.png" style="width:100px;height:80px" /></th>
     </tr>
   </table>
@@ -70,19 +70,19 @@
   </table>
   
   <div class="kiri">
-      <p>Mengetahui :<br>Manajer Pengadaan</p>
+      <p>Mengetahui :<br>Penyelia SDM & UMUM</p>
       <br>
       <br>
       <br>
-      <p><b><u>M. Azharuddin, S.T</u><br>NIK : 197810170371</b></p>
+      <p><b><u>Muammer</u><br>NIK : xxxxxxxxxx</b></p>
   </div>
 
   <div class="kanan">
-      <p>Mengetahui :<br>Asisten Manajer Gudang </p>
+      <p>Mengetahui :<br>Pemimpin Bidang Layanan & Operasional</p>
       <br>
       <br>
       <br>
-      <p><b><u>Irwan Saputra, A.Md</u><br>NIK : 198108300482</b></p>
+      <p><b><u>Wahyu Winarti</u><br>NIK : xxxxxxxxxxxx</b></p>
   </div>
 
 <!-- Memanggil fungsi bawaan HTML2PDF -->
