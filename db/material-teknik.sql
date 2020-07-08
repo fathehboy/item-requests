@@ -270,7 +270,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `id_user` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(20) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `level` enum('unit_pelayanan','admin_gudang','asisten_manajer') NOT NULL,
+  `level` enum('unit_pelayanan','admin_gudang','asmen_gudang') NOT NULL,
   `manajer` varchar(50) NOT NULL,
   `asmen` varchar(50) NOT NULL,
   PRIMARY KEY (`id_user`)
