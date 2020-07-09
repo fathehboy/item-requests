@@ -21,7 +21,4 @@
 		return $tanggal_indo;
 	}
 
-	
-
-
 ?>

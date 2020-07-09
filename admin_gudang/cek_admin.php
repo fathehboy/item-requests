@@ -6,3 +6,4 @@ if ($_SESSION['login'] == 1 && $_SESSION['level'] != 'admin_gudang') {
     echo 'Please login first';
     header('Location:../index.php');
 }
+?>

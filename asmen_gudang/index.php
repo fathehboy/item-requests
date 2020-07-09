@@ -6,7 +6,6 @@ include "../fungsi/koneksi.php";
   $query = mysqli_query($koneksi, "SELECT COUNT(id_jenis) AS jumlah FROM jenis_barang ");
   $data = mysqli_fetch_assoc($query);
 
-
 ?>
 
 <!DOCTYPE html>
