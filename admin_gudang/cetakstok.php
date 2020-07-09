@@ -1,4 +1,6 @@
-<?php ob_start(); ?>
+<?php 
+require_once "cek_admin.php";
+ob_start(); ?>
 <!-- Setting CSS bagian header/ kop -->
 <style type="text/css">
   table.page_header {width: 1020px; border: none; background-color: #DDDDFF; border-bottom: solid 1mm #AAAADD; padding: 2mm }
@@ -27,8 +29,8 @@
   }
 
   div.kiri {
-	  width:300px;
-	  float:left;
+	  --width:300px;
+	  --float:left;
 	  margin-left:30px;
 	  display:inline;
   }

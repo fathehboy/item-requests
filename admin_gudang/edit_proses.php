@@ -1,9 +1,9 @@
-<?php  
-
+<?php
+require_once "cek_admin.php";
 include "../fungsi/koneksi.php";
 
-if(isset($_POST['update'])) {
-	
+if (isset($_POST['update'])) {
+
 	$kode_brg = $_POST['kode_brg'];
 	$nama_brg = $_POST['nama_brg'];
 	$id_jenis = $_POST['id_jenis'];
@@ -11,7 +11,7 @@ if(isset($_POST['update'])) {
 	$satuan = $_POST['satuan'];
 	$stok = $_POST['jumlah'];
 
-	
+
 
 	$query = mysqli_query($koneksi, "UPDATE stokbarang SET nama_brg='$nama_brg', id_jenis='$id_jenis', tgl_masuk='$tgl_masuk', satuan='$satuan', stok='$stok', sisa=stok-keluar WHERE kode_brg ='$kode_brg' ");
 	if ($query) {
@@ -19,9 +19,5 @@ if(isset($_POST['update'])) {
 	} else {
 		echo 'error' . mysqli_error($koneksi);
 	}
-
 }
-
-
-
 ?>

@@ -1,5 +1,5 @@
 <?php  
-
+require_once "cek_admin.php";
 include "../fungsi/koneksi.php";
 
 if(isset($_POST['update'])) {
