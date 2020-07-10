@@ -28,7 +28,7 @@ $error = "";
                                     <option value="">--Pilih Jenis Barang--</option>
                                     <?php
                                     include "../fungsi/koneksi.php";
-                                    $queryJenis = mysqli_query($koneksi, "select * from jenis_barang");
+                                    $queryJenis = mysqli_query($koneksi, "SELECT DISTINCT jenis_barang.id_jenis, jenis_barang.jenis_brg FROM jenis_barang JOIN stokbarang ON stokbarang.id_jenis=jenis_barang.id_jenis");
                                     if (mysqli_num_rows($queryJenis)) {
                                         while ($row = mysqli_fetch_assoc($queryJenis)) :
                                     ?>

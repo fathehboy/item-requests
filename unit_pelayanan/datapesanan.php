@@ -3,7 +3,7 @@ require_once "cek_unit.php";
 include "../fungsi/koneksi.php";
 include "../fungsi/fungsi.php";
 
-if (isset($_GET['aksi']) && isset($_GET['tgl'])) {
+/*if (isset($_GET['aksi']) && isset($_GET['tgl'])) {
 	//die($id = $_GET['id']);
 	$tgl = $_GET['tgl'];
 	echo $tgl;
@@ -12,7 +12,7 @@ if (isset($_GET['aksi']) && isset($_GET['tgl'])) {
 		header("location:?p=detil&tgl=$tgl");
 	}
 }
-
+*/
 $query = mysqli_query($koneksi, "SELECT tgl_permintaan, count(kode_brg)  FROM permintaan WHERE unit= '$_SESSION[username]'  GROUP BY tgl_permintaan  ");
 ?>
 
@@ -49,7 +49,7 @@ $query = mysqli_query($koneksi, "SELECT tgl_permintaan, count(kode_brg)  FROM pe
 											<td> <?= tanggal_indo($row['tgl_permintaan']); ?> </td>
 											<td> <?= $row['count(kode_brg)']; ?> </td>
 											<td>
-												<a href="?p=datapesanan&aksi=detil&tgl=<?= $row['tgl_permintaan']; ?>"><span data-placement='top' data-toggle='tooltip' title='Detail Permintaan'><button class="btn btn-info">Detail Permintaan</button></span></a>
+												<a href="?p=detil&tgl=<?= $row['tgl_permintaan']; ?>"><span data-placement='top' data-toggle='tooltip' title='Detail Permintaan'><button class="btn btn-info">Detail Permintaan</button></span></a>
 											</td>
 								</tr>
 
