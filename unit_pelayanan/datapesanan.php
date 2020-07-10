@@ -23,7 +23,7 @@ $query = mysqli_query($koneksi, "SELECT tgl_permintaan, count(kode_brg)  FROM pe
 		<div class="col-sm-12">
 			<div class="box box-primary">
 				<div class="box-header with-border">
-					<h3 class="text-center">Data Permintaan Material Teknik</h3>
+					<h3 class="text-center">Data Permintaan Barang</h3>
 				</div>
 				<div class="box-body">
 					<a href="index.php?p=formpesan" style="margin:10px 15px;" class="btn btn-success"><i class='fa fa-plus'> Form Permintaan Barang</i></a>
