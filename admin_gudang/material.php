@@ -55,9 +55,11 @@ if (isset($_GET['id_jenis'])) {
                                     <th>Kode Barang</th>
                                     <th>Nama Barang</th>
                                     <th>Satuan</th>
+                                    <th>Harga</th>
                                     <th>Stok Awal</th>
                                     <th>Keluar</th>
                                     <th>Sisa</th>
+                                    <th>Harga Total Sisa</th>
 
                                     <th>Aksi</th>
                                 </tr>
@@ -75,9 +77,11 @@ if (isset($_GET['id_jenis'])) {
                                             <td> <?= $row['kode_brg']; ?> </td>
                                             <td> <?= $row['nama_brg']; ?> </td>
                                             <td> <?= $row['satuan']; ?> </td>
+                                            <td> <?= $row['harga_item']; ?> </td>
                                             <td> <?= $row['stok']; ?> </td>
                                             <td> <?= $row['keluar']; ?> </td>
                                             <td> <?= $row['sisa']; ?> </td>
+                                            <td> <?= $row['harga_item']*$row['sisa']; ?> </td>
 
 
                                             <td>

@@ -17,7 +17,7 @@ if (isset($_GET['id_jenis'])) {
 		<div class="col-sm-12">
 			<div class="box box-primary">
 				<div class="box-header with-border">
-					<h3 class="text-center">Data Stok Material Teknik</h3>
+					<h3 class="text-center">Data Stok Material Barang</h3>
 				</div>
 				<div class="box-body">
 					<div class="table-responsive">
@@ -30,8 +30,10 @@ if (isset($_GET['id_jenis'])) {
 									<th>Satuan</th>
 									<th>Tanggal Masuk</th>
 									<th>Stok Awal</th>
+									<th>Harga Barang</th>
 									<th>Keluar</th>
 									<th>Sisa</th>
+									<th>Total Harga</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -48,8 +50,10 @@ if (isset($_GET['id_jenis'])) {
 											<td> <?= $row['satuan']; ?> </td>
 											<td> <?= tanggal_indo($row['tgl_masuk']); ?> </td>
 											<td> <?= $row['stok']; ?> </td>
+											<td> <?= $row['harga_item']; ?> </td>
 											<td> <?= $row['keluar']; ?> </td>
 											<td> <?= $row['sisa']; ?> </td>
+											<td> <?= $row['harga_item'] * $row['sisa']; ?> </td>
 								</tr>
 						<?php $no++;
 										endwhile;

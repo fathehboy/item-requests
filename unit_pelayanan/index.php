@@ -96,7 +96,7 @@ $data = mysqli_fetch_assoc($query);
             </ul>
           </li>
           <li><a href="index.php?p=datapesanan"><i class="fa fa-files-o"></i> Data Permintaan Barang</a></li>
-          <li><a href="index.php?p=cetakpesanan"><i class="fa fa-print"></i> Cetak BPP</a></li>
+         <!--<li><a href="index.php?p=cetakpesanan"><i class="fa fa-print"></i> Cetak BPP</a></li> -->
           <li><a href="../logout.php"><i class="fa fa-sign-out"></i> <span>Logout</span></a></li>
         </ul>
       </section>

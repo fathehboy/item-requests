@@ -60,7 +60,7 @@ $error = "";
                             <span class="col-sm-7"> <?php echo $error; ?></span>
                         </div>
                         <div class="form-group">
-                            <label for="nama_tukang" class=" col-sm-3 control-label">Nama Tukang</label>
+                            <label for="nama_tukang" class=" col-sm-3 control-label">Keterangan</label>
                             <div class="col-sm-5">
                                 <input id="nama_tukang" type="text" required="isikan dulu" class="form-control" name="nama_tukang" required>
                             </div>
@@ -90,7 +90,7 @@ $error = "";
                         <th>Nama Barang</th>
                         <th>Jumlah</th>
                         <th>Satuan</th>
-                        <th>Nama Tukang</th>
+                        <th>Keterangan</th>
                         <th>Aksi</th>
                     </tr>
                     <tr>

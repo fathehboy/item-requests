@@ -4,7 +4,7 @@ include "../fungsi/koneksi.php";
 $tgl = date('Y-m-d');
 
 define('KS', true);
-require_once '../fungsi.php'; //ini simpen dimana ya tadi? ini bener kan? iya diluar dia bang, diluar folder ssave jalank
+require_once '../fungsi.php'; //14-07-2020
 
 
 
@@ -17,7 +17,7 @@ if (mysqli_query($koneksi, $query)) {
 	mysqli_query($koneksi, $query2);
 	header("Location:index.php?p=datapesanan");
 	$chatid = "656180881";
-	$text = "Neruto";
+	$text = "Silahkan cek Data Permintaan barang, Love MumuM";
 	sendApiMsg($chatid, $text);
 } else {
 	echo "gagal euy" . mysqli_error($koneksi);

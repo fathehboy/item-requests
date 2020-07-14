@@ -69,6 +69,12 @@ if ($kode_brg) {
                             </div>
                         </div>
                         <div class="form-group">
+                            <label for="harga_item" class="col-sm-offset-1 col-sm-3 control-label">Harga Barang</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" name="harga_item">
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label for="jumlah" class="col-sm-offset-1 col-sm-3 control-label">Jumlah</label>
                             <div class="col-sm-4">
                                 <input type="number" class="form-control" name="jumlah">

@@ -43,6 +43,7 @@ $query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kod
                                     <th>Satuan</th>
                                     <th>Jumlah</th>
                                     <th>Status</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -68,6 +69,9 @@ $query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kod
                                                         echo '<span class=text-danger>Tidak Disetujui</span>';
                                                     }
                                                     ?>
+                                            </td>
+                                            <td>
+                                                <a target="_blank" href="cetakpesanan.php?&tgl=<?= $row['tgl_permintaan']; ?>&unit=<?= $row['unit']; ?>"><span data-placement='top' data-toggle='tooltip' title='Cetak BPP'><button class="btn btn-success"><i class="fa fa-print"> Cetak BPP</i></button></span></a>
                                             </td>
 
                                 </tr>

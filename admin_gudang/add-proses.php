@@ -9,13 +9,14 @@ if (isset($_POST['simpan'])) {
 	$nama_brg = $_POST['nama_brg'];
 	$stok = $_POST['jumlah'];
 	$satuan = $_POST['satuan'];
+	$harga_item = $_POST['harga_item'];
 	$suplier = $_POST['suplier'];
 	$tgl_masuk = $_POST['tgl_masuk'];
 
 	//die($stok);
 
-	$query = "INSERT into stokbarang (kode_brg, id_jenis, nama_brg, stok, tgl_masuk, satuan, sisa, suplier) VALUES 
-										('$kode_brg', '$id_jenis', '$nama_brg', '$stok', '$tgl_masuk', '$satuan', '$stok', '$suplier');
+	$query = "INSERT into stokbarang (kode_brg, id_jenis, nama_brg, stok, tgl_masuk, satuan, harga_item, sisa, suplier) VALUES 
+										('$kode_brg', '$id_jenis', '$nama_brg', '$stok', '$tgl_masuk', '$satuan', '$harga_item', '$stok', '$suplier');
 
 			";
 	$hasil = mysqli_query($koneksi, $query);
