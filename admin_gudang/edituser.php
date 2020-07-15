@@ -32,13 +32,13 @@
                             </div>
                         </div>
                          <div class="form-group ">
-                            <label for="manajer" class="col-sm-offset-1 col-sm-3 control-label">Manajer</label>
+                            <label for="manajer" class="col-sm-offset-1 col-sm-3 control-label">Pemimpin Bidang</label>
                             <div class="col-sm-4">
                                 <input type="text" value="<?= $row2['manajer'];  ?>" required  class="form-control" name="manajer">
                             </div>
                         </div>
                         <div class="form-group ">
-                            <label for="asmen" class="col-sm-offset-1 col-sm-3 control-label">Asmen</label>
+                            <label for="asmen" class="col-sm-offset-1 col-sm-3 control-label">Penyelia</label>
                             <div class="col-sm-4">
                                 <input type="text" value="<?= $row2['asmen'];  ?>" required  class="form-control" name="asmen">
                             </div>
@@ -49,9 +49,9 @@
                                 <select id="jenis_brg" required class="form-control" name="level">
                                 <option value="">--Pilih Level--</option>
                                     
-                                    <option  <?php if($row2['level'] == "unit_pelayanan") echo "selected"; ?>  value="unit_pelayanan">Unit Pelayanan</option>
-                                    <option  <?php if($row2['level'] == "admin_gudang") echo "selected"; ?> value="admin_gudang">Admin Gudang Pengadaan</option>
-                                    <option  <?php if($row2['level'] == "asmen_gudang") echo "selected"; ?> value="asmen_gudang">Asisten Manajer Gudang</option>
+                                    <option  <?php if($row2['level'] == "unit_pelayanan") echo "selected"; ?>  value="unit_pelayanan">Unit Bankaltimtara</option>
+                                    <option  <?php if($row2['level'] == "admin_gudang") echo "selected"; ?> value="admin_gudang">Admin Barang</option>
+                                    <option  <?php if($row2['level'] == "asmen_gudang") echo "selected"; ?> value="asmen_gudang">Admin Accept</option>
                                     
                                 </select>
                             </div>

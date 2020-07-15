@@ -37,7 +37,7 @@
       <tr>
         <td style="text-align: center; "><b>No.</b></td>
 		<td style="text-align: center; "><b>Tanggal Keluar</b></td>
-        <td style="text-align: center; "><b>Unit Pelayanan</b></td>
+        <td style="text-align: center; "><b>Unit</b></td>
         <td style="text-align: center; "><b>Kode Barang</b></td>
         <td style="text-align: center; "><b>Nama Barang</b></td>
 		<td style="text-align: center; "><b>Satuan</b></td>
