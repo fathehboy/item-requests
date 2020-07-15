@@ -21,7 +21,7 @@
           <p>
             <font size="5px"><b>Data Permintaan</b></font>
           </p>
-          <p>Data Permintaan Material Teknik</p>
+          <p>Data Permintaan Barang</p>
         </div>
         <div class="icon">
           <i class="ion ion-bag"></i>
@@ -36,9 +36,9 @@
       <div class="small-box bg-green">
         <div class="inner">
           <p>
-            <font size="5px"><b>Data Stok Material</b></font>
+            <font size="5px"><b>Data Stok Barang</b></font>
           </p>
-          <p>Data Stok Material Teknik</p>
+          <p>Data Stok Barang</p>
         </div>
         <div class="icon">
           <i class="ion ion-stats-bars"></i>
@@ -55,7 +55,7 @@
           <p>
             <font size="5px"><b>Tata Tertib</b></font>
           </p>
-          <p>Tata Tertib Permintaan Material Teknik</p>
+          <p>Tata Tertib Permintaan Barang</p>
         </div>
         <div class="icon">
           <i class="ion ion-stats-bars"></i>
@@ -75,13 +75,13 @@
       <!-- heading modal -->
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"><b>Tata Tertib Permintaan Material Teknik</b></h4>
+        <h4 class="modal-title"><b>Tata Tertib Permintaan Barang</b></h4>
       </div>
       <!-- body modal -->
       <div class="modal-body">
-        <p>1. Unit Pelayanan menginput data permintaan material teknik di form permintaan material teknik.</p>
-        <p>2. Unit Pelayanan menunggu permintaan di konfirmasi oleh Asisten Manajer Gudang.</p>
-        <p>3. Setelah di konfirmasi, kemudian Unit Pelayanan mencetak BPP dan kemudian membawa BPP yang telah di sah kan oleh Manajer Unit Pelayanan ke Gudang Bagian Pengadaan untuk dilakukan proses pengeluaran barang.</p>
+        <p>1. Unit menginput data permintaan Barang di form permintaan Barang.</p>
+        <p>2. Unit menunggu permintaan di konfirmasi oleh Penyelia SDM & UMUM.</p>
+        <p></p>
       </div>
       <!-- footer modal -->
       <div class="modal-footer">

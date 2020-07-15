@@ -38,8 +38,8 @@ $query = mysqli_query($koneksi, "SELECT * FROM user WHERE level!='manager' AND l
                                 <tr>
                                     <th>No</th>
                                     <th>Username</th>
-                                    <th>Manajer</th>
-                                    <th>Asisten Manajer</th>
+                                    <th>Pemimpin Bidang Layanan & Operasional</th>
+                                    <th>Atasan langsung</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>

@@ -40,13 +40,13 @@ if (isset($_POST['simpan'])) {
                             </div>
                         </div>
                         <div class="form-group ">
-                            <label for="manajer" class="col-sm-offset-1 col-sm-3 control-label">Pimpinan</label>
+                            <label for="manajer" class="col-sm-offset-1 col-sm-3 control-label">Pemimpin Bidang Layanan & Operasional</label>
                             <div class="col-sm-4">
                                 <input required type="text" class="form-control" name="manajer">
                             </div>
                         </div>
                         <div class="form-group ">
-                            <label for="asmen" class="col-sm-offset-1 col-sm-3 control-label">Penyelia</label>
+                            <label for="asmen" class="col-sm-offset-1 col-sm-3 control-label">Atasan Langsung</label>
                             <div class="col-sm-4">
                                 <input required type="text" class="form-control" name="asmen">
                             </div>
@@ -56,9 +56,9 @@ if (isset($_POST['simpan'])) {
                             <div class="col-sm-4">
                                 <select required name="level" class="form-control">
                                     <option>--Pilih Level--</option>
-                                    <option value="asmen_gudang">UMUM 2</option>
-                                    <option value="unit_pelayanan">UNIT</option>
-                                    <option value="admin_gudang">UMUM</option>
+                                    <option value="asmen_gudang">Penyelia SDM & UMUM</option>
+                                    <option value="unit_pelayanan">Pelaksana</option>
+                                    <option value="admin_gudang">Pelaksana SDM & UMUM</option>
                                 </select>
                             </div>
                         </div>

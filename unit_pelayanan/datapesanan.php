@@ -56,7 +56,7 @@ $query = mysqli_query($koneksi, "SELECT tgl_permintaan, count(kode_brg)  FROM pe
 						<?php $no++;
 										endwhile;
 									} else {
-										echo "<tr><td colspan=9>Tidak ada permintaan material teknik.</td></tr>";
+										echo "<tr><td colspan=9>Tidak ada permintaan Barang</td></tr>";
 									} ?>
 
 							</tbody>

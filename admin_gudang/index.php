@@ -91,13 +91,13 @@ $data = mysqli_fetch_assoc($query);
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><a href="index.php?p=material&id_jenis=1"><i class="fa fa-circle-o"></i>Office Supplies</a></li>
-              <li><a href="index.php?p=material&id_jenis=2"><i class="fa fa-circle-o"></i>Office Appliances</a></li>
-              <li><a href="index.php?p=material&id_jenis=3"><i class="fa fa-circle-o"></i>Office Machines</a></li>
-              <li><a href="index.php?p=material&id_jenis=4"><i class="fa fa-circle-o"></i>Office Furniture</a></li>
-              <li><a href="index.php?p=material&id_jenis=5"><i class="fa fa-circle-o"></i>Office Ornament</a></li>
-              <li><a href="index.php?p=material&id_jenis=6"><i class="fa fa-circle-o"></i>Perabotan Kantor Tempel</a></li>
-              <li><a href="index.php?p=material&id_jenis=7"><i class="fa fa-circle-o"></i>Alat Bantu Peraga</a></li>
+              <li><a href="index.php?p=material&id_jenis=1"><i class="fa fa-circle-o"></i>Barang 1</a></li>
+              <li><a href="index.php?p=material&id_jenis=2"><i class="fa fa-circle-o"></i>Barang 2</a></li>
+              <li><a href="index.php?p=material&id_jenis=3"><i class="fa fa-circle-o"></i>Barang 3</a></li>
+              <li><a href="index.php?p=material&id_jenis=4"><i class="fa fa-circle-o"></i>Barang 4</a></li>
+              <li><a href="index.php?p=material&id_jenis=5"><i class="fa fa-circle-o"></i>Barang 5</a></li>
+              <li><a href="index.php?p=material&id_jenis=6"><i class="fa fa-circle-o"></i>Barang 6</a></li>
+              <li><a href="index.php?p=material&id_jenis=7"><i class="fa fa-circle-o"></i>Barang 7</a></li>
             </ul>
           </li>
 
