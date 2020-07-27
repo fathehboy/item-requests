@@ -154,7 +154,7 @@ if ($query2) {
 </div>
 
 <div class="tengah">
-  <p>Disetujui Oleh :<br>Pemimpin Bidang Layanan & Operasional </p>
+  <p>Disetujui Oleh :<br>Atasan Langsung </p>
   <br>
   <br>
   <br>
