@@ -16,7 +16,7 @@ $error = "";
                 <form method="post" id="tes" action="add-proses.php" class="form-horizontal">
                     <div class="box-body">
                         <div class="form-group ">
-                            <label for="nama_brg" class="a col-sm-3 control-label">Unit Pelayanan</label>
+                            <label for="nama_brg" class="a col-sm-3 control-label">Unit</label>
                             <div class="col-sm-3">
                                 <input type="text" readonly value="<?= $_SESSION['username']; ?>" class="form-control" name="unit">
                             </div>

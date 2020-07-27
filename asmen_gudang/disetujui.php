@@ -16,7 +16,7 @@ if (isset($_GET['aksi']) && isset($_GET['id'])) {
 }
 
 
-$query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kode_brg, tgl_permintaan, unit, nama_brg, jumlah, satuan,  status FROM permintaan INNER JOIN stokbarang ON permintaan.kode_brg = stokbarang.kode_brg WHERE status=1 ORDER BY tgl_permintaan DESC ");
+$query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kode_brg, tgl_permintaan, unit, nama_brg, jumlah, satuan,  status FROM permintaan INNER JOIN stokbarang ON permintaan.kode_brg = stokbarang.kode_brg WHERE status=2 ORDER BY tgl_permintaan DESC ");
 
 
 ?>
@@ -62,9 +62,13 @@ $query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kod
                                             <td> <?= $row['jumlah']; ?> </td>
                                             <td> <?php
                                                     if ($row['status'] == 0) {
-                                                        echo '<span class=text-warning>Belum Disetujui</span>';
+                                                        echo '<span class=text-warning>Menunggu Persetujuan</span>';
                                                     } elseif ($row['status'] == 1) {
-                                                        echo '<span class=text-primary>Telah Disetujui</span>';
+                                                        echo '<span class=text-primary>Telah Persetujuan Penyelia</span>';
+                                                    } elseif ($row['status'] == 2) {
+                                                            echo '<span class=text-primary>Telah Disetujui</span>';
+                                                    } elseif ($row['status'] == 3) {
+                                                        echo '<span class=text-primary>Barang Keluar</span>';
                                                     } else {
                                                         echo '<span class=text-danger>Tidak Disetujui</span>';
                                                     }
