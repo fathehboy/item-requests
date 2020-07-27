@@ -17,7 +17,7 @@ if (mysqli_query($koneksi, $query)) {
 	mysqli_query($koneksi, $query2);
 	header("Location:index.php?p=datapesanan");
 	$chatid = "656180881";
-	$text = "Silahkan cek Data Permintaan barang, Love MumuM";
+	$text = "Bapak Penyelia, Silahkan cek Permintaan barang yang diajukan unit Bapak :)";
 	sendApiMsg($chatid, $text);
 } else {
 	echo "gagal euy" . mysqli_error($koneksi);
