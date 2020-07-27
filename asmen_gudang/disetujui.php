@@ -38,7 +38,7 @@ $query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kod
                                 <tr>
                                     <th>No</th>
                                     <th>Tanggal Permintaan</th>
-                                    <th>Unit Pelayanan</th>
+                                    <th>Unit</th>
                                     <th>Nama Barang</th>
                                     <th>Satuan</th>
                                     <th>Jumlah</th>
@@ -70,9 +70,7 @@ $query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kod
                                                     }
                                                     ?>
                                             </td>
-                                            <td>
-                                                <a target="_blank" href="cetakpesanan.php?&tgl=<?= $row['tgl_permintaan']; ?>&unit=<?= $row['unit']; ?>"><span data-placement='top' data-toggle='tooltip' title='Cetak BPP'><button class="btn btn-success"><i class="fa fa-print"> Cetak BPP</i></button></span></a>
-                                            </td>
+                                            
 
                                 </tr>
                         <?php $no++;
