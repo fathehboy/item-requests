@@ -15,7 +15,7 @@ if (isset($_GET['id'])) {
 	$query3 = mysqli_query($koneksi, "INSERT INTO pengeluaran (unit, kode_brg, jumlah, tgl_keluar)
 											VALUES ('$row[unit]', '$row[kode_brg]', '$row[jumlah]', '$tanggal' ) ");
 
-	if ($query3) {
+	if ($query3) { 
 		header("location:index.php?p=datapesanan");
 	} else {
 		echo "ada yang salah" . mysqli_error($koneksi);
