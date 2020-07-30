@@ -17,10 +17,7 @@ if (isset($_GET['id'])) {
 
 	if ($query1) { 
 	header("location:index.php?p=datapesanan");
-        $chatid = "656180881";
-	$text = "Silahkan cek Data Permintaan barang Pak";
-	sendApiMsg($chatid, $text);
-	} else {
+    } else {
 		echo "ada yang salah" . mysqli_error($koneksi);
 	}
 }
