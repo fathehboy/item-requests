@@ -6,7 +6,7 @@ if (isset($_GET['id'])) {
 	$id = $_GET['id'];
 	$tanggal = date('Y-m-d');
 
-	$query1 = mysqli_query($koneksi, "UPDATE permintaan SET status=1 WHERE id_permintaan='$id' ");
+	//$query1 = mysqli_query($koneksi, "UPDATE permintaan SET status=7 WHERE id_permintaan='$id' ");
 
 	//$query2 = mysqli_query($koneksi, "SELECT * FROM permintaan WHERE id_permintaan='$id'");
 
@@ -14,6 +14,8 @@ if (isset($_GET['id'])) {
 
 	//$query3 = mysqli_query($koneksi, "INSERT INTO pengeluaran (unit, kode_brg, jumlah, tgl_keluar)
 	//										VALUES ('$row[unit]', '$row[kode_brg]', '$row[jumlah]', '$tanggal' ) ");
+
+	$query1 = mysqli_query($koneksi, "UPDATE permintaan SET status=66 WHERE id_permintaan='$id' ");
 
 	if ($query1) { 
 	header("location:index.php?p=datapesanan");

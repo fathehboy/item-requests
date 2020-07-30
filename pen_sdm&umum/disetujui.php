@@ -16,7 +16,7 @@ if (isset($_GET['aksi']) && isset($_GET['id'])) {
 }
 
 
-$query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kode_brg, tgl_permintaan, unit, nama_brg, jumlah, satuan,  status FROM permintaan INNER JOIN stokbarang ON permintaan.kode_brg = stokbarang.kode_brg WHERE status=2 ORDER BY tgl_permintaan DESC ");
+$query = mysqli_query($koneksi, "SELECT permintaan.id_permintaan, permintaan.kode_brg, tgl_permintaan, unit, nama_brg, jumlah, satuan,  status FROM permintaan INNER JOIN stokbarang ON permintaan.kode_brg = stokbarang.kode_brg WHERE status=77 ORDER BY tgl_permintaan DESC ");
 
 
 ?>

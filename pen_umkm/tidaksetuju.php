@@ -7,7 +7,7 @@ if (isset($_GET['id']) && isset($_GET['tgl']) && isset($_GET['unit'])) {
 	$tgl = $_GET['tgl'];
 	$unit = $_GET['unit'];
 
-	$query = mysqli_query($koneksi, "UPDATE permintaan SET status=4 WHERE id_permintaan='$id' ");
+	$query = mysqli_query($koneksi, "UPDATE permintaan SET status=99 WHERE id_permintaan='$id' ");
 
 	if ($query) {
 		header("location:index.php?p=detil&tgl=$tgl&unit=$unit");

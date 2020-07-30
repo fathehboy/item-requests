@@ -2,7 +2,7 @@
 require_once "cek_asmen.php";
 include "../fungsi/koneksi.php";
 include "../fungsi/fungsi.php";
-$query = mysqli_query($koneksi, "SELECT distinct(unit), tgl_permintaan FROM permintaan WHERE status=1");
+$query = mysqli_query($koneksi, "SELECT distinct(unit), tgl_permintaan FROM permintaan WHERE status=66");
 ?>
 <!-- Main content -->
 <section class="content">
