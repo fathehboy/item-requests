@@ -96,7 +96,7 @@ $error = "";
                     <tr>
                         <?php
                         $sekarang  = date("Y-m-d");
-                        $queryTampil = mysqli_query($koneksi, "SELECT sementara.unit, sementara.nama_tukang, sementara.id_sementara, stokbarang.nama_brg, stokbarang.satuan, jumlah FROM sementara INNER JOIN stokbarang ON sementara.kode_brg  = stokbarang.kode_brg WHERE tgl_permintaan = '$sekarang' AND sementara.unit='$_SESSION[username]' AND status='4'");
+                        $queryTampil = mysqli_query($koneksi, "SELECT sementara.unit, sementara.nama_tukang, sementara.id_sementara, stokbarang.nama_brg, stokbarang.satuan, jumlah FROM sementara INNER JOIN stokbarang ON sementara.kode_brg  = stokbarang.kode_brg WHERE tgl_permintaan = '$sekarang' AND sementara.unit='$_SESSION[username]' AND status='1'");
                         $no = 1;
                         if (mysqli_num_rows($queryTampil) > 0) {
                             while ($row = mysqli_fetch_assoc($queryTampil)) :

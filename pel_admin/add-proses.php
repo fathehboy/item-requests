@@ -10,7 +10,7 @@ if (isset($_POST['simpan'])) {
 	$tgl_pemesanan = date('Y-m-d');
 	$id_jenis = $_POST['id_jenis'];
 	$nama_tukang = $_POST['nama_tukang'];
-	$status = '1';
+	$status = '2';
 
 	$query = "INSERT into sementara (unit, kode_brg, id_jenis, jumlah, tgl_permintaan, nama_tukang, status) VALUES ('$unit', '$kode_brg', '$id_jenis', '$jumlah', '$tgl_pemesanan', '$nama_tukang', '$status')";
 	$hasil = mysqli_query($koneksi, $query);
